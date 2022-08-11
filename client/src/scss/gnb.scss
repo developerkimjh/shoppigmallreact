@@ -1,0 +1,55 @@
+.gnb {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    background-color: white;
+    display: flex;
+
+    .gnbleft {
+        position: absolute;
+        margin-left: 12px;
+        .logo {
+            width: 155px;
+            height: 63px;
+        }
+    }
+
+
+    .marker{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(255, 65, 65);
+        width: 0;
+        height: 3px;
+        transition: 0.4s; 
+    }
+
+    .gnbcenter {
+        padding: 25px 0 20px 0;
+        margin: 0 auto;
+
+        .menu {
+            text-decoration: none;
+            font-size: 19px;
+            font-weight: 500;
+            color: black;
+            margin: 0px 20px;
+        }
+
+        a {
+            padding: 20px 10px 12px 10px;
+            font-size: 17px;      
+            text-align: center;
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: rgba(255, 65, 65);
+        }
+      }
+      
+}
+
+
+
