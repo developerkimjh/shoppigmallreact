@@ -2,8 +2,8 @@
   "name": "shopping-mall",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/developerkimjh/shoppigmallreact.git",
-  "author": "developerkimjh <developerkimjh@gmail.com>",
+  "repository": "https://github.com/roy-jung/livecode-study_mall.git",
+  "author": "roy-jung <power4ce@gmail.com>",
   "license": "MIT",
   "private": true,
   "workspaces": [
@@ -14,8 +14,5 @@
     "client": "yarn workspace client dev",
     "server": "yarn workspace server dev",
     "start": "cd server && npm run serve"
-  },
-  "dependencies": {
-    "dotenv": "^16.0.1"
   }
 }
