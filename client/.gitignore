@@ -9,6 +9,10 @@ lerna-debug.log*
 
 # dotenv environment variables file
 
+.env
+.env.development
+.env.production
+.env.staging
 
 node_modules
 dist

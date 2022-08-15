@@ -1,7 +1,19 @@
 
 .main_page {
     max-width: 1115px;
-    margin: 0 auto;
-    padding-top: 20px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
 
+    label {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    span {
+        font-size: 16px;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 }

@@ -2,20 +2,6 @@ import { Link } from "react-router-dom";
 import logo from "../../img/logo.jpg";
 
 const Gnb = () => {
-  let marker = document.querySelector<HTMLElement>(".marker");
-  let item = document.querySelectorAll<HTMLElement>(".menu");
-
-  const indicator = (e: any) => {
-    marker!.style.left = e.offsetLeft + "px";
-    marker!.style.width = e.offsetWidth + "px";
-  };
-
-  item.forEach((link) => {
-    link.addEventListener("click", (e) => {
-      indicator(e.target);
-    });
-  });
-
   return (
     <div>
       <nav className="gnb">
@@ -24,7 +10,6 @@ const Gnb = () => {
             <img className="logo" src={logo} />
           </a>
         </div>
-        <div className="marker"></div>
         <ul className="gnbcenter">
           <li>
             <Link to="/" className="menu">

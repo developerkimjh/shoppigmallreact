@@ -14,17 +14,6 @@
         }
     }
 
-
-    .marker{
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background-color: rgba(255, 65, 65);
-        width: 0;
-        height: 3px;
-        transition: 0.4s; 
-    }
-
     .gnbcenter {
         padding: 25px 0 20px 0;
         margin: 0 auto;
@@ -46,7 +35,9 @@
         }
         a:hover{
             color: rgba(255, 65, 65);
+            border-bottom: 3px solid red;
         }
+        
       }
       
 }
