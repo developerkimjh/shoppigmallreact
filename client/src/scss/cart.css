@@ -357,7 +357,7 @@ input:checked ~ .checkmark:after {
 }
 
 .willpay-product .amount-label {
-  font-weight: 500;
+  font-weight: 700;
   margin-right: 5px;
 }
 
@@ -372,7 +372,7 @@ input:checked ~ .checkmark:after {
   text-align: center;
   padding-top: 100px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .empty-cart .payment {
